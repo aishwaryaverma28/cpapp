@@ -1,12 +1,13 @@
 
 
-import LocationSearch from './components/LocationSearch';
+import { Outlet } from "react-router-dom";
+
 
 function App() {
   return (
-    <div className="App">
-       <LocationSearch/>
-    </div>
+    <>
+     <Outlet/> 
+    </>
   );
 }
 
