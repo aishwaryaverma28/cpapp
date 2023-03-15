@@ -1,7 +1,13 @@
+import './App.css';
+import React from 'react';
+import ResumeHeader from './Components/ResumeHeader';
+import ResumeBody from './Components/ResumeBody'
+
 export default function ResumeBuilderPage(){
     return(
-        <div>
-         <h1>  Resume Builder page </h1> 
+        <div className='App'>
+        <ResumeHeader/>
+        <ResumeBody/>
         </div>
     )
 }
